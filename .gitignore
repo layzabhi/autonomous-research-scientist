@@ -1,0 +1,68 @@
+# ==========================
+# Python
+# ==========================
+__pycache__/
+*.py[cod]
+*.so
+*.egg-info/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Conda
+.envs/
+.conda/
+
+# Environment variables
+.env
+.env.*
+
+!.env.example
+
+# Python cache
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Logs
+*.log
+
+# VS Code
+.vscode/
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+
+# ==========================
+# Node
+# ==========================
+node_modules/
+dist/
+build/
+
+# ==========================
+# Docker
+# ==========================
+docker-data/
+
+# ==========================
+# Database
+# ==========================
+*.db
+*.sqlite
+*.sqlite3
+
+# ==========================
+# Misc
+# ==========================
+.idea/
